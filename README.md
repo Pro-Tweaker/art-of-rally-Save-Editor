@@ -1,7 +1,7 @@
 ﻿# art of rally Save Editor
 Simple save editor to jumpstart your rally career !
 ## Compatible Versions
-- Latest Steam [B37A6EF55177833E85EA39C952632A05]
+- Latest Steam (23_09_2020_14) [B37A6EF55177833E85EA39C952632A05]
 ### Note
 Cloud Save must be activated
 ## Backup Save
