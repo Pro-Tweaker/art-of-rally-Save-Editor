@@ -88,18 +88,22 @@ namespace art_of_rally_Save_Editor
 
         private void UnlockAll()
         {
-            AddIfNotPresent(saveEntries, new SaveEntry("FREEROAM_LEVEL_UNLOCKED_SARDINIA", 1));
             AddIfNotPresent(saveEntries, new SaveEntry("FREEROAM_LEVEL_UNLOCKED_GERMANY", 1));
             AddIfNotPresent(saveEntries, new SaveEntry("FREEROAM_LEVEL_UNLOCKED_NORWAY", 1));
+            AddIfNotPresent(saveEntries, new SaveEntry("FREEROAM_LEVEL_UNLOCKED_SARDINIA", 1));
             AddIfNotPresent(saveEntries, new SaveEntry("FREEROAM_LEVEL_UNLOCKED_JAPAN", 1));
             AddIfNotPresent(saveEntries, new SaveEntry("FREEROAM_LEVEL_UNLOCKED_KENYA", 1));
+            AddIfNotPresent(saveEntries, new SaveEntry("FREEROAM_LEVEL_UNLOCKED_INDONESIA", 1));
+            AddIfNotPresent(saveEntries, new SaveEntry("FREEROAM_LEVEL_UNLOCKED_AUSTRALIA", 1));
 
             AddIfNotPresent(saveEntries, new SaveEntry("SONG_UNLOCK_FINLAND", 1));
             AddIfNotPresent(saveEntries, new SaveEntry("SONG_UNLOCK_GERMANY", 1));
-            AddIfNotPresent(saveEntries, new SaveEntry("SONG_UNLOCK_NORWAY", 1));
             AddIfNotPresent(saveEntries, new SaveEntry("SONG_UNLOCK_JAPAN", 1));
+            AddIfNotPresent(saveEntries, new SaveEntry("SONG_UNLOCK_NORWAY", 1));
             AddIfNotPresent(saveEntries, new SaveEntry("SONG_UNLOCK_SARDINIA", 1));
             AddIfNotPresent(saveEntries, new SaveEntry("SONG_UNLOCK_KENYA", 1));
+            AddIfNotPresent(saveEntries, new SaveEntry("SONG_UNLOCK_INDONESIA", 1));
+            AddIfNotPresent(saveEntries, new SaveEntry("SONG_UNLOCK_AUSTRALIA", 1));
 
             AddIfNotPresent(saveEntries, new SaveEntry("UNLOCKABLE_1967", 1));
             AddIfNotPresent(saveEntries, new SaveEntry("UNLOCKABLE_1968", 1));
@@ -199,6 +203,7 @@ namespace art_of_rally_Save_Editor
             valuesToolStripComboBox.Items.Add("HAS_RESET_PLAYERPREFS");
             valuesToolStripComboBox.Items.Add("CURRENT_LEADERBOARD_ENUM");
             valuesToolStripComboBox.Items.Add("GAME_SETTINGS_GDPR_SETTING");
+
             valuesToolStripComboBox.Items.Add("SETTINGS_QUALITY_LEVEL");
             valuesToolStripComboBox.Items.Add("SETTINGS_GAMMA");
             valuesToolStripComboBox.Items.Add("SETTINGS_FULLSCREEN");
@@ -268,6 +273,7 @@ namespace art_of_rally_Save_Editor
             valuesToolStripComboBox.Items.Add("SETTINGS_DARK_MODE");
             valuesToolStripComboBox.Items.Add("SETTINGS_UI_SCALE");
             valuesToolStripComboBox.Items.Add("SETTINGS_DYNAMIC_SCALING");
+
             valuesToolStripComboBox.Items.Add("UNLOCKABLE_1967");
             valuesToolStripComboBox.Items.Add("UNLOCKABLE_1968");
             valuesToolStripComboBox.Items.Add("UNLOCKABLE_1969");
@@ -298,6 +304,7 @@ namespace art_of_rally_Save_Editor
             valuesToolStripComboBox.Items.Add("UNLOCKABLE_1994");
             valuesToolStripComboBox.Items.Add("UNLOCKABLE_1995");
             valuesToolStripComboBox.Items.Add("UNLOCKABLE_1996");
+
             valuesToolStripComboBox.Items.Add("UNLOCKABLE_1967_BONUS");
             valuesToolStripComboBox.Items.Add("UNLOCKABLE_1968_BONUS");
             valuesToolStripComboBox.Items.Add("UNLOCKABLE_1969_BONUS");
@@ -328,6 +335,7 @@ namespace art_of_rally_Save_Editor
             valuesToolStripComboBox.Items.Add("UNLOCKABLE_1994_BONUS");
             valuesToolStripComboBox.Items.Add("UNLOCKABLE_1995_BONUS");
             valuesToolStripComboBox.Items.Add("UNLOCKABLE_1996_BONUS");
+
             valuesToolStripComboBox.Items.Add("FREEROAM_FINLAND_VAN_0");
             valuesToolStripComboBox.Items.Add("FREEROAM_FINLAND_TAPE_0");
             valuesToolStripComboBox.Items.Add("FREEROAM_FINLAND_TAPE_1");
@@ -344,6 +352,7 @@ namespace art_of_rally_Save_Editor
             valuesToolStripComboBox.Items.Add("FREEROAM_FINLAND_VIEW_2");
             valuesToolStripComboBox.Items.Add("FREEROAM_FINLAND_VIEW_3");
             valuesToolStripComboBox.Items.Add("FREEROAM_FINLAND_VIEW_4");
+
             valuesToolStripComboBox.Items.Add("FREEROAM_GERMANY_VAN_0");
             valuesToolStripComboBox.Items.Add("FREEROAM_GERMANY_TAPE_0");
             valuesToolStripComboBox.Items.Add("FREEROAM_GERMANY_TAPE_1");
@@ -360,6 +369,7 @@ namespace art_of_rally_Save_Editor
             valuesToolStripComboBox.Items.Add("FREEROAM_GERMANY_VIEW_2");
             valuesToolStripComboBox.Items.Add("FREEROAM_GERMANY_VIEW_3");
             valuesToolStripComboBox.Items.Add("FREEROAM_GERMANY_VIEW_4");
+
             valuesToolStripComboBox.Items.Add("FREEROAM_JAPAN_VAN_0");
             valuesToolStripComboBox.Items.Add("FREEROAM_JAPAN_TAPE_0");
             valuesToolStripComboBox.Items.Add("FREEROAM_JAPAN_TAPE_1");
@@ -376,6 +386,7 @@ namespace art_of_rally_Save_Editor
             valuesToolStripComboBox.Items.Add("FREEROAM_JAPAN_VIEW_2");
             valuesToolStripComboBox.Items.Add("FREEROAM_JAPAN_VIEW_3");
             valuesToolStripComboBox.Items.Add("FREEROAM_JAPAN_VIEW_4");
+
             valuesToolStripComboBox.Items.Add("FREEROAM_NORWAY_VAN_0");
             valuesToolStripComboBox.Items.Add("FREEROAM_NORWAY_TAPE_0");
             valuesToolStripComboBox.Items.Add("FREEROAM_NORWAY_TAPE_1");
@@ -392,6 +403,7 @@ namespace art_of_rally_Save_Editor
             valuesToolStripComboBox.Items.Add("FREEROAM_NORWAY_VIEW_2");
             valuesToolStripComboBox.Items.Add("FREEROAM_NORWAY_VIEW_3");
             valuesToolStripComboBox.Items.Add("FREEROAM_NORWAY_VIEW_4");
+
             valuesToolStripComboBox.Items.Add("FREEROAM_SARDINIA_VAN_0");
             valuesToolStripComboBox.Items.Add("FREEROAM_SARDINIA_TAPE_0");
             valuesToolStripComboBox.Items.Add("FREEROAM_SARDINIA_TAPE_1");
@@ -408,6 +420,7 @@ namespace art_of_rally_Save_Editor
             valuesToolStripComboBox.Items.Add("FREEROAM_SARDINIA_VIEW_2");
             valuesToolStripComboBox.Items.Add("FREEROAM_SARDINIA_VIEW_3");
             valuesToolStripComboBox.Items.Add("FREEROAM_SARDINIA_VIEW_4");
+
             valuesToolStripComboBox.Items.Add("FREEROAM_KENYA_VAN_0");
             valuesToolStripComboBox.Items.Add("FREEROAM_KENYA_TAPE_0");
             valuesToolStripComboBox.Items.Add("FREEROAM_KENYA_TAPE_1");
@@ -424,20 +437,61 @@ namespace art_of_rally_Save_Editor
             valuesToolStripComboBox.Items.Add("FREEROAM_KENYA_VIEW_2");
             valuesToolStripComboBox.Items.Add("FREEROAM_KENYA_VIEW_3");
             valuesToolStripComboBox.Items.Add("FREEROAM_KENYA_VIEW_4");
+
+            valuesToolStripComboBox.Items.Add("FREEROAM_INDONESIA_VAN_0");
+            valuesToolStripComboBox.Items.Add("FREEROAM_INDONESIA_TAPE_0");
+            valuesToolStripComboBox.Items.Add("FREEROAM_INDONESIA_TAPE_1");
+            valuesToolStripComboBox.Items.Add("FREEROAM_INDONESIA_TAPE_2");
+            valuesToolStripComboBox.Items.Add("FREEROAM_INDONESIA_TAPE_3");
+            valuesToolStripComboBox.Items.Add("FREEROAM_INDONESIA_TAPE_4");
+            valuesToolStripComboBox.Items.Add("FREEROAM_INDONESIA_RALLY_0");
+            valuesToolStripComboBox.Items.Add("FREEROAM_INDONESIA_RALLY_1");
+            valuesToolStripComboBox.Items.Add("FREEROAM_INDONESIA_RALLY_2");
+            valuesToolStripComboBox.Items.Add("FREEROAM_INDONESIA_RALLY_3");
+            valuesToolStripComboBox.Items.Add("FREEROAM_INDONESIA_RALLY_4");
+            valuesToolStripComboBox.Items.Add("FREEROAM_INDONESIA_VIEW_0");
+            valuesToolStripComboBox.Items.Add("FREEROAM_INDONESIA_VIEW_1");
+            valuesToolStripComboBox.Items.Add("FREEROAM_INDONESIA_VIEW_2");
+            valuesToolStripComboBox.Items.Add("FREEROAM_INDONESIA_VIEW_3");
+            valuesToolStripComboBox.Items.Add("FREEROAM_INDONESIA_VIEW_4");
+
+            valuesToolStripComboBox.Items.Add("FREEROAM_AUSTRALIA_VAN_0");
+            valuesToolStripComboBox.Items.Add("FREEROAM_AUSTRALIA_TAPE_0");
+            valuesToolStripComboBox.Items.Add("FREEROAM_AUSTRALIA_TAPE_1");
+            valuesToolStripComboBox.Items.Add("FREEROAM_AUSTRALIA_TAPE_2");
+            valuesToolStripComboBox.Items.Add("FREEROAM_AUSTRALIA_TAPE_3");
+            valuesToolStripComboBox.Items.Add("FREEROAM_AUSTRALIA_TAPE_4");
+            valuesToolStripComboBox.Items.Add("FREEROAM_AUSTRALIA_RALLY_0");
+            valuesToolStripComboBox.Items.Add("FREEROAM_AUSTRALIA_RALLY_1");
+            valuesToolStripComboBox.Items.Add("FREEROAM_AUSTRALIA_RALLY_2");
+            valuesToolStripComboBox.Items.Add("FREEROAM_AUSTRALIA_RALLY_3");
+            valuesToolStripComboBox.Items.Add("FREEROAM_AUSTRALIA_RALLY_4");
+            valuesToolStripComboBox.Items.Add("FREEROAM_AUSTRALIA_VIEW_0");
+            valuesToolStripComboBox.Items.Add("FREEROAM_AUSTRALIA_VIEW_1");
+            valuesToolStripComboBox.Items.Add("FREEROAM_AUSTRALIA_VIEW_2");
+            valuesToolStripComboBox.Items.Add("FREEROAM_AUSTRALIA_VIEW_3");
+            valuesToolStripComboBox.Items.Add("FREEROAM_AUSTRALIA_VIEW_4");
+
             valuesToolStripComboBox.Items.Add("FREEROAM_TOTAL_DISTANCE");
             valuesToolStripComboBox.Items.Add("FREEROAM_TOTAL_AIRTIME");
             valuesToolStripComboBox.Items.Add("FREEROAM_TOPSPEED");
+
             valuesToolStripComboBox.Items.Add("SONG_UNLOCK_FINLAND");
             valuesToolStripComboBox.Items.Add("SONG_UNLOCK_GERMANY");
-            valuesToolStripComboBox.Items.Add("SONG_UNLOCK_NORWAY");
             valuesToolStripComboBox.Items.Add("SONG_UNLOCK_JAPAN");
+            valuesToolStripComboBox.Items.Add("SONG_UNLOCK_NORWAY");
             valuesToolStripComboBox.Items.Add("SONG_UNLOCK_SARDINIA");
             valuesToolStripComboBox.Items.Add("SONG_UNLOCK_KENYA");
-            valuesToolStripComboBox.Items.Add("FREEROAM_LEVEL_UNLOCKED_SARDINIA");
+            valuesToolStripComboBox.Items.Add("SONG_UNLOCK_INDONESIA");
+            valuesToolStripComboBox.Items.Add("SONG_UNLOCK_AUSTRALIA");
+
             valuesToolStripComboBox.Items.Add("FREEROAM_LEVEL_UNLOCKED_GERMANY");
             valuesToolStripComboBox.Items.Add("FREEROAM_LEVEL_UNLOCKED_NORWAY");
+            valuesToolStripComboBox.Items.Add("FREEROAM_LEVEL_UNLOCKED_SARDINIA");
             valuesToolStripComboBox.Items.Add("FREEROAM_LEVEL_UNLOCKED_JAPAN");
             valuesToolStripComboBox.Items.Add("FREEROAM_LEVEL_UNLOCKED_KENYA");
+            valuesToolStripComboBox.Items.Add("FREEROAM_LEVEL_UNLOCKED_INDONESIA");
+            valuesToolStripComboBox.Items.Add("FREEROAM_LEVEL_UNLOCKED_AUSTRALIA");
         }
 
         private void EnableButtons()
